@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="./output.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS Project</title>
+</head>
+
+<body class="w-full">
+    <header class="w-full">
+        <div class="bg-verde-oscuro p-3">
+            <p class="text-white text-center font-sans font-extralight text-sm">I'm baby retro chilliwave letterpress
+                small batch bread, paleo, ugh banjo hot chicken godard craft beer.</p>
+        </div>
+        <div class="bg-white container mx-auto flex flex-col md:flex-row justify-between items-center p-5">
+            <div>
+                <h1 class="font-montserrat text-lg uppercase font-bold">Company Name</h1>
+            </div>
+            <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 mt-4 md:mt-0">
+                <p class="text-gris-claro text-xs font-sans font-extralight">email@example.com</p>
+                <p class="text-gris-claro text-xs font-extralight">+44 123 456 7890</p>
+            </div>
+            <div class="mt-4 md:mt-0">
+                <button
+                    class="bg-gradient-to-r from-amarillo-claro to-naranja text-white font-bold py-2 px-4 rounded border-amarillo-claro border-solid border-2 uppercase text-sm">
+                    <i class="fa-solid fa-cart-shopping p-2"></i>Get Started
+                </button>
+            </div>
+        </div>
+        <div class="mx-auto text-center bg-hero bg-cover p-11 m-0">
+            <div>
+                <div class="flex flex-col lg:flex-row items-center">
+                    <div class="flex justify-center items-end mb-4 lg:mb-0 lg:mr-4 w-full lg:w-1/2">
+                        <img src="/img/bottles@2x.png" class="w-1/2 mx-auto h-auto" alt="Bottles">
+                    </div>
+                    <div class="text-left w-full lg:w-1/2">
+                        <div class="mb-4">
+                            <h2 class="text-white text-left font-bold font-sans text-lg">Supporting Subheadline goes
+                                here</h2>
+                            <h1 class="text-white text-left font-bold font-sans capitalize text-2xl md:text-3xl">My
+                                amazing headline goes here</h1>
+                            <p class="text-white text-left font-extralight font-sans mt-4">I'm baby retro chilliwave
+                                letterpress small batch bread, paleo, ugh banjo hot chicken godard craft beer.</p>
+                        </div>
+                        <div class="mt-4 mb-4">
+                            <button
+                                class="bg-gradient-to-r from-amarillo-claro to-naranja text-white font-bold py-2 px-4 rounded border-amarillo-claro border-solid border-2 uppercase text-sm">
+                                <i class="fa-solid fa-cart-shopping p-2"></i>Get Started
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="bg-white container mx-auto flex flex-col md:flex-row justify-center items-center rounded-lg space-y-4 md:space-y-0 md:space-x-4 p-4 mt-8">
+                    <div class="m-5">
+                        <p class="text-gris-claro tracking-wide text-l font-sans font-medium flex items-center">
+                            <i class="fa-solid fa-leaf bg-amarillo-fuerte p-3 text-white m-4 rounded-md"></i>Natural
+                            Ingredients
+                        </p>
+                    </div>
+                    <div class="m-5">
+                        <p class="text-gris-claro tracking-wide text-l font-sans font-medium flex items-center">
+                            <i class="fa-solid fa-truck bg-amarillo-fuerte p-3 text-white m-4 rounded-md"></i>Fast
+                            Shipping
+                        </p>
+                    </div>
+                    <div class="m-5">
+                        <p class="text-gris-claro tracking-wide text-l font-sans font-medium flex items-center">
+                            <i
+                                class="fa-solid fa-certificate bg-amarillo-fuerte p-3 text-white m-4 rounded-md"></i>Money
+                            Back Guarantee
+                        </p>
+                    </div>
+                    <div class="m-5">
+                        <p class="text-gris-claro tracking-wide text-l font-sans font-medium flex items-center">
+                            <i class="fa-solid fa-flag-usa bg-amarillo-fuerte p-3 text-white m-4 rounded-md"></i>Made in
+                            the USA
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container mx-auto p-8 md:p-20">
+        <!-- About Us Section -->
+        <div class="grid md:grid-cols-2 gap-8">
+            <!-- Left Column -->
+            <div class="p-4 md:p-8">
+                <h3 class="text-verde-oscuro font-semibold uppercase">About Us</h3>
+                <h2 class="text-4xl font-bold my-4">My Amazing Headline Goes Here</h2>
+                <p class="text-gray-700 mb-4">
+                    I'm baby retro chillwave letterpress small batch beard, paleo ugh banjo hot chicken godard craft
+                    beer. Biodiesel pork belly green juice VHS farm-to-table, taxidermy heirloom scenester +1 chillwave
+                    man braid readymade locavore lomo.
+                </p>
+                <p class="text-gray-700">
+                    Intelligentsia typewriter glossier, kogi pour-over YOLO everyday carry flannel. Green juice Brooklyn
+                    church-key skateboard selfies, normcore Tumblr shabby chic activated charcoal poke bicycle rights
+                    quinoa portland dreamcatcher neutra.
+                </p>
+            </div>
+            <!-- Right Column -->
+            <div class="bg-gris-fondo p-6 rounded-lg shadow-lg">
+                <h2 class="text-4xl text-center font-bold mb-4">Headline Goes Here</h2>
+                <div class="space-y-4">
+                    <!-- Feature 1 -->
+                    <div class="flex items-start p-2">
+                        <div class="mr-4">
+                            <img src="/img/icon_01.svg" alt="Icon 1" class="w-12 md:w-16 lg:w-20">
+                        </div>
+                        <div>
+                            <p class="text-gray-700">
+                                I'm baby retro chillwave letterpress small batch beard, paleo ugh banjo hot chicken
+                                godard craft beer. <span class="font-bold">Biodiesel pork belly green juice VHS
+                                    farm-to-table.</span>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Feature 2 -->
+                    <div class="flex items-start p-2">
+                        <div class="mr-4">
+                            <img src="/img/icon_02.svg" alt="Icon 2" class="w-12 md:w-16 lg:w-20">
+                        </div>
+                        <div>
+                            <p class="text-gray-700">
+                                I'm baby retro <span class="font-bold">chillwave letterpress</span> small batch beard,
+                                paleo ugh banjo hot chicken godard craft beer. Biodiesel pork belly green juice VHS
+                                farm-to-table.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Feature 3 -->
+                    <div class="flex items-start p-2">
+                        <div class="mr-4">
+                            <img src="/img/icon_03.svg" alt="Icon 3" class="w-12 md:w-16 lg:w-20">
+                        </div>
+                        <div>
+                            <p class="text-gray-700">
+                                I'm baby retro <span class="font-bold">chillwave letterpress</span> small batch beard,
+                                paleo ugh banjo hot chicken godard craft beer. Biodiesel pork belly green juice VHS
+                                farm-to-table.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Reviews Section -->
+    <section class="bg-gris-fondo p-8 my-8 shadow-sm rounded-lg container mx-auto">
+        <div class="flex flex-col md:flex-row items-center p-6">
+            <div class="w-full md:w-1/2 text-start mb-4 md:mb-0">
+                <h2 class="text-2xl font-bold text-gris-claro tracking-wider">Reviews</h2>
+            </div>
+            <div class="w-full md:w-1/2 text-end">
+                <p class="text-verde-oscuro font-medium tracking-wide">Testimonial Name, who says...</p>
+            </div>
+        </div>
+        <div class="bg-white p-5 rounded-lg">
+            <div class="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4">
+                <img src="/img/testimonial.png" alt="Profile" class="rounded-full w-24 h-24 md:w-auto md:h-auto">
+                <div>
+                    <div class="flex flex-col md:flex-row items-center p-4">
+                        <div class="w-full md:w-1/2 text-start mb-4 md:mb-0">
+                            <h2 class="text-lg font-bold text-gris-claro">Testimonial Name</h2>
+                        </div>
+                        <div class="w-full md:w-1/2 text-end">
+                            <p class="text-naranja-amarillo font-medium tracking-wider">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+                    <p class="text-sm text-gris-claro tracking-wide">I’m baby retro chillwave letterpress small batch
+                        beard, paleo ugh banjo hot chicken godard craft beer. Biodiesel pork belly green juice VHS
+                        farm-to-table, taxidermy heirloom scenester +1 chillwave man braid readymade locavore lomo.
+                        Intelligentsia typewriter glossier, kogi pour-over YOLO everyday carry flannel. Green juice
+                        Brooklyn church-key skateboard selfies, normcore Tumblr shabby chic activated charcoal poke
+                        bicycle rights quinoa portland dreamcatcher neutra.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCT INFO Section -->
+    <section class="bg-gris-fondo p-8 my-8 shadow-sm rounded-lg container mx-auto">
+        <div class="bg-white p-5 rounded-t-lg flex flex-col md:flex-row items-center">
+            <div class="w-full md:w-1/2 p-6">
+                <h2 class="text-4xl font-bold tracking-wider text-verde-oscuro pb-5">Headline goes here</h2>
+                <p class="text-gris-claro tracking-wide">I’m baby retro chillwave letterpress small batch beard, paleo
+                    ugh banjo hot chicken godard craft beer. Biodiesel pork belly green juice VHS farm-to-table,
+                    taxidermy heirloom scenester +1 chillwave man braid readymade locavore lomo. <br><br>Intelligentsia
+                    typewriter glossier, kogi pour-over YOLO everyday carry flannel. Green juice Brooklyn church-key
+                    skateboard selfies, normcore Tumblr shabby chic activated charcoal poke bicycle rights quinoa
+                    portland dreamcatcher neutra.</p>
+                <hr class="my-4 border-gray-50">
+            </div>
+            <div class="w-full md:w-1/2">
+                <img src="/img/bg_02@2x.png" alt="">
+            </div>
+        </div>
+        <div class="bg-white p-6 rounded-b-lg block">
+            <h2 class="text-4xl font-bold tracking-wider text-gris-claro pb-5">Headline goes here</h2>
+            <p class="text-gris-claro tracking-wide">I’m baby retro chillwave letterpress small batch beard, paleo ugh
+                banjo hot chicken godard craft beer. Biodiesel pork belly green juice VHS farm-to-table, taxidermy
+                heirloom scenester +1 chillwave man braid readymade locavore lomo. <br><br>Intelligentsia typewriter
+                glossier, kogi pour-over YOLO everyday carry flannel. Green juice Brooklyn church-key skateboard
+                selfies, normcore Tumblr shabby chic activated charcoal poke bicycle rights quinoa portland dreamcatcher
+                neutra.</p>
+        </div>
+        <div class="flex flex-col md:flex-row items-center content-center align-middle pt-4">
+            <div class="w-full md:w-3/4 p-6">
+                <h2 class="text-4xl font-bold tracking-wider text-verde-oscuro pb-5">Supporting Subheadline Goes Here
+                </h2>
+                <h3 class="text-lg pb-4 font-bold tracking-wider text-gris-claro">I’m baby retro chillwave letterpress
+                    small batch beard, paleo ugh banjo hot chicken godard craft beer.</h3>
+                <p class="text-gris-claro tracking-wide">Biodiesel pork belly green juice VHS farm-to-table, taxidermy
+                    heirloom scenester +1 chillwave man braid readymade locavore lomo. Intelligentsia typewriter
+                    glossier, kogi pour-over YOLO everyday carry flannel. Green juice Brooklyn church-key skateboard
+                    selfies, normcore Tumblr shabby chic activated charcoal poke bicycle rights quinoa portland
+                    dreamcatcher neutra.</p>
+                <hr class="my-4 border-gray-50">
+            </div>
+            <div class="w-full md:w-1/4">
+                <img src="/img/bottles@2x.png" class="w-80" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Section -->
+    <section class="bg-amarillo-bg p-8 my-8 rounded-md mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div class="text-center bg-white p-4 rounded-lg">
+                <img src="/img/1_bottle@2x.png" alt="Product Image" class="mx-auto mb-4 w-80">
+                <button class="bg-verde-oscuro text-white py-2 px-4 rounded-full">BUY 1 GET 3 FREE</button>
+                <div class="flex justify-center space-x-16 mt-4">
+                    <img src="/img/1_bottle@2x.png" alt="Product Image" class="mb-4 w-20">
+                    <img src="/img/1_bottle@2x.png" alt="Product Image" class="mb-4 w-20">
+                    <img src="/img/1_bottle@2x.png" alt="Product Image" class="mb-4 w-20">
+                </div>
+            </div>
+            <div>
+                <h2 class="text-5xl font-bold mb-4">My Amazing Headline Goes Here</h2>
+                <div class="flex justify-center w-full md:w-3/4 space-x-4 md:space-x-10 mb-4 bg-white p-4 rounded-lg">
+                    <div class="flex items-center space-x-2">
+                        <img src="/img/icon_01.svg" alt="Product Image" class="mb-4 w-10">
+                        <span class="font-bold text-verde-oscuro">Headline<br>Goes Here</span>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <img src="/img/icon_02.svg" alt="Product Image" class="mb-4 w-10">
+                        <span class="font-bold text-verde-oscuro">Headline<br>Goes Here</span>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <img src="/img/icon_03.svg" alt="Product Image" class="mb-4 w-10">
+                        <span class="font-bold text-verde-oscuro">Headline<br>Goes Here</span>
+                    </div>
+                </div>
+                <p class="text-left py-4">I’m baby retro chillwave letterpress small batch beard, <br>paleo ugh banjo
+                    hot chicken godard craft beer...</p>
+                <div
+                    class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 space-x-0 md:space-x-8 bg-white w-full md:w-3/4 p-4 rounded-lg">
+                    <div>
+                        <p class="text-gris text-lg text-center">Regular Price <br><span
+                                class="line-through">$149</span></p>
+                    </div>
+                    <div>
+                        <p class="text-5xl font-bold">$59</p>
+                    </div>
+                    <div>
+                        <button class="bg-yellow-500 text-white py-2 px-4 rounded-md"><i
+                                class="fa-solid fa-cart-shopping"></i> GET STARTED</button>
+                    </div>
+                </div>
+                <div class="mt-4 flex items-center space-x-2">
+                    <img src="/img/seal@2x.png" alt="" class="w-12">
+                    <span class="font-bold text-md">180 Days Money<br> Back Guarantee</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Ingredients Section -->
+    <section class="container mx-auto p-6">
+        <div class="bg-gris-fondo p-2 mt-10 flex flex-col md:flex-row justify-center items-center rounded-lg">
+            <div class="relative flex items-center mb-8 md:mb-0">
+                <div class="-top-20 left-4 md:absolute md:-top-20 md:left-4">
+                    <img src="/img/bottles@2x.png" alt="Mockup Bottle" class="w-40 md:w-80 h-auto">
+                </div>
+            </div>
+            <div class="bg-white p-8 rounded-lg md:ml-80">
+                <h2 class="text-2xl md:text-4xl font-bold text-verde-oscuro tracking-wider">Ingredients</h2>
+                <p class="text-gray-600 mt-2">Biodiesel pork belly green juice VHS farm-to-table, taxidermy heirloom
+                    scenester +1 chillwave man braid readymade locavore lomo. Intelligentsia typewriter glossier, kogi
+                    pour-over YOLO everyday carry flannel. Green juice Brooklyn church-key skateboard selfies,
+                    normcore Tumblr shabby chic activated charcoal poke bicycle rights quinoa portland dreamcatcher
+                    neutra.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ingredients Section -->
+    <section class="container mx-auto p-6">
+        <div class="bg-gris-fondo p-6 mt-10 rounded-lg">
+            <div class="bg-white rounded-t-lg p-4 flex flex-col md:flex-row justify-center items-center">
+                <div class="w-full md:w-1/4 mb-4 md:mb-0">
+                    <img src="/img/Grupo 4124@2x.png" alt="Mockup Bottle" class="w-40 md:w-80 h-auto mx-auto">
+                </div>
+                <div class="p-8 rounded-lg w-full md:w-3/4">
+                    <h2 class="text-2xl md:text-4xl font-bold text-verde-oscuro tracking-wider">Headline goes here</h2>
+                    <p class="text-gray-600 mt-2">I’m baby retro chillwave letterpress small batch beard, paleo ugh
+                        banjo hot chicken godard craft beer. Biodiesel pork belly green juice VHS farm-to-table,
+                        taxidermy heirloom scenester +1 chillwave man braid readymade locavore
+                        lomo.<br><br>Intelligentsia typewriter glossier, kogi pour-over YOLO everyday carry flannel.
+                        Green juice Brooklyn church-key skateboard selfies, normcore Tumblr shabby chic activated
+                        charcoal poke bicycle rights quinoa portland dreamcatcher neutra.
+                    </p>
+                </div>
+            </div>
+            <hr class="border-gray-50">
+            <div class="flex flex-col md:flex-row items-center justify-center bg-white rounded-b-lg p-6">
+                <div class="w-full md:w-1/2 mb-4 md:mb-0">
+                    <h2 class="text-2xl md:text-4xl font-bold text-gris-claro tracking-wider">Headline goes here</h2>
+                    <p class="text-gray-600 mt-2">I’m baby retro chillwave letterpress small batch beard, paleo ugh
+                        banjo hot chicken godard craft beer.
+                    </p>
+                </div>
+                <div class="w-full md:w-1/2 flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 text-center">
+                    <div class="w-full md:w-1/3 bg-verde-claro-bg rounded-md p-4">
+                        <i class="fa-solid fa-pills text-verde-oscuro text-4xl"></i>
+                        <p class="text-verde-oscuro text-md font-bold">2X</p>
+                    </div>
+                    <div class="w-full md:w-1/3 bg-verde-claro-bg rounded-md p-4">
+                        <i class="fa-solid fa-clock text-verde-oscuro text-4xl"></i>
+                        <p class="text-verde-oscuro text-md font-bold">Daily</p>
+                    </div>
+                    <div class="w-full md:w-1/3 bg-verde-claro-bg rounded-md p-4">
+                        <i class="fa-solid fa-utensils text-verde-oscuro text-4xl"></i>
+                        <p class="text-verde-oscuro text-md font-bold">With Meal</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4 -->
+    <section class="container mx-auto p-6">
+        <div class="bg-gris-fondo p-6 mt-10 rounded-lg">
+            <div class="flex flex-col md:flex-row justify-center items-center p-4">
+                <div class="p-8 rounded-lg w-full md:w-1/2">
+                    <h2 class="text-2xl md:text-4xl font-bold text-gris-claro tracking-wider">Headline goes here</h2>
+                    <h3 class="text-sm pt-2 pb-2 font-bold text-verde-oscuro tracking-wide">Intelligentsia typewriter
+                        glossier, kogi pour-over YOLO everyday carry flannel. Green juice Brooklyn church-key skateboard
+                        selfies,
+                        normcore Tumblr shabby chic activated charcoal poke bicycle rights quinoa portland dreamcatcher
+                        neutra.</h3>
+                    <p class="text-gray-600 mt-2">I’m baby retro chillwave letterpress small batch beard, paleo ugh
+                        banjo hot chicken godard craft beer. Biodiesel pork belly green juice VHS farm-to-table,
+                        taxidermy heirloom scenester +1 chillwave man braid readymade locavore
+                        lomo.<br><br>Intelligentsia typewriter glossier, kogi pour-over YOLO everyday carry flannel.
+                        Green juice Brooklyn church-key skateboard selfies, normcore Tumblr shabby chic activated
+                        charcoal poke bicycle rights quinoa portland dreamcatcher neutra.
+                    </p>
+                </div>
+                <div class="max-w-7xl mx-auto p-4 w-full md:w-1/2">
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <img src="/img/image_01@2x.png" alt="Image 1" class="w-full h-auto">
+                        </div>
+                        <div>
+                            <img src="/img/image_02@2x.png" alt="Image 2" class="w-full h-auto">
+                        </div>
+                        <div>
+                            <img src="/img/image_03@2x.png" alt="Image 3" class="w-full h-auto">
+                        </div>
+                        <div>
+                            <img src="/img/image_04@2x.png" alt="Image 4" class="w-full h-auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCT INFO Section -->
+    <section class="bg-gris-fondo p-8 my-8 shadow-sm rounded-lg container mx-auto">
+        <div class="bg-white rounded-lg flex flex-col md:flex-row items-center content-center align-middle pt-4">
+            <div class="w-full md:w-3/4 p-6">
+                <h3 class="text-lg pb-4 font-bold tracking-wider text-amarillo-fuerte">180 Days Money Back Guarantee
+                </h3>
+                <h2 class="text-2xl md:text-4xl font-bold tracking-wider text-gris-claro pb-5">My Amazing Headline Goes
+                    Here</h2>
+                <p class="text-gris-claro tracking-wide">Biodiesel pork belly green juice VHS farm-to-table, taxidermy
+                    heirloom scenester +1 chillwave man braid readymade locavore lomo. Intelligentsia typewriter
+                    glossier, kogi pour-over YOLO everyday carry flannel. Green juice Brooklyn church-key skateboard
+                    selfies, normcore Tumblr shabby chic activated charcoal poke bicycle rights quinoa portland
+                    dreamcatcher neutra.</p>
+                <hr class="my-4 border-gray-50">
+            </div>
+            <div class="w-full md:w-1/4 flex justify-center md:justify-end p-4">
+                <img src="/img/seal@2x.png" class="w-20 md:w-40" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="text-white">
+        <div class="mx-auto">
+            <!-- Top Row -->
+            <div class="bg-amarillo-fuerte flex flex-col md:flex-row justify-around items-center p-6">
+                <div class="flex items-center mb-4 md:mb-0">
+                    <i class="fa-solid fa-shield border-solid border-2 border-white rounded-full p-2 mr-2"></i>
+                    <p class="font-light">We Protect Your Privacy</p>
+                </div>
+                <div class="flex items-center mb-4 md:mb-0">
+                    <i class="fa-solid fa-certificate border-solid border-2 border-white rounded-full p-2 mr-2"></i>
+                    <p class="font-light">100% Satisfaction Guaranteed</p>
+                </div>
+                <div class="flex items-center">
+                    <i class="fa-solid fa-lock border-solid border-2 border-white rounded-full p-2 mr-2"></i>
+                    <p class="font-light">Your Information Is Secure</p>
+                </div>
+            </div>
+
+            <!-- Bottom Row -->
+            <div class="bg-verde-oscuro p-6 md:p-28">
+                <div class="flex flex-col md:flex-row">
+                    <h4 class="font-bold text-lg mb-4 w-full md:w-1/2">COMPANY NAME</h4>
+                    <nav
+                        class="mb-8 w-full md:w-1/2 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 md:space-x-4">
+                        <ul class="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-2">
+                            <li><a href="#" class="text-sm">Contact |</a></li>
+                            <li><a href="#" class="text-sm">Terms & Conditions |</a></li>
+                            <li><a href="#" class="text-sm">Privacy Policy |</a></li>
+                            <li><a href="#" class="text-sm">Shipping & Returns</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="block text-center">
+                    <p class="text-sm mt-4 font-extralight">
+                        “Statements on this site have not been evaluated by the Food and Drug Administration. Products
+                        are not intended to diagnose, treat, cure or prevent any disease. Review all product warnings
+                        prior to use." "Not intended to cure any disease”.<br><br>The information provided on this site
+                        is for informational purposes only and is not intended as
+                        a substitute for advice from your physician or other health care professional or any information
+                        contained on or in any product label or packaging. You should not use the information on this
+                        site for diagnosis or treatment of any health problem or for prescription of any medication or
+                        other treatment. Always consult with a healthcare professional before starting any diet,
+                        exercise or supplementation program, before taking any medication, or if you have or suspect you
+                        might have a health problem. You should not stop taking any medication without first consulting
+                        your physician. Results featured on this web site are atypical. As individuals differ, so will
+                        results. Science Natural Supplements distributes a product line made with natural ingredients.
+                        Always check with your doctor for risks associated with dietary supplements and your specific
+                        health conditions and/or allergies.
+                    </p>
+                    <div class="text-center text-sm mt-2">
+                        <p class="font-extralight">Copyright 2022 <span class="font-bold">WebForce HQ</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
